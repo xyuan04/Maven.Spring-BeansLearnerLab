@@ -1,6 +1,8 @@
-package com.example.demo;
+package com.example.demo.people;
 
-public class Student extends Person implements Learner{
+import com.example.demo.interfaces.Learner;
+
+public class Student extends Person implements Learner {
     private double totalStudyTime;
 
     public Student(Long id, String name) {

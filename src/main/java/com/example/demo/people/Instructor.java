@@ -1,6 +1,7 @@
-package com.example.demo;
+package com.example.demo.people;
 
-import java.util.Iterator;
+import com.example.demo.interfaces.Learner;
+import com.example.demo.interfaces.Teacher;
 
 public class Instructor extends Person implements Teacher {
 
